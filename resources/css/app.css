@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+    --green: #15803D;
+    --light-green: #16A34A;
+    --gray : #353540;
+    --time : 300ms;
+}
+
+.bg-green{
+    background-color:  var(--green);
+}
+input[type=submit]:hover.bg-green
+{
+    transition-duration: var(--time);
+    background-color: #275739;
+}
+.border-green-light{
+    border-bottom: solid 5px var(--light-green);
+}
+input[type=submit]:hover.border-green-light:hover{
+    transition-duration: var(--time);
+    border-bottom: solid 5px #13823C;
+}
+.bg-gray{
+    background-color: var(--gray);
+}
+
+body{
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+.h-full{
+    height: 100%;
+}
+
+
+th{
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+td{
+    padding: 10px 0;
+}
