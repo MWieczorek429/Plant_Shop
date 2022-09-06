@@ -7,4 +7,4 @@ użytkownika na stronę sukcesu lub odrzucenia transakcji.
 URLC ustawianmy na stronie dotpaya.
 
 # Shipx
-Aby dostać się do panelu zarządznia zamówieniami musimy dopisać '/shipx/login'.
+Aby dostać się do panelu zarządznia zamówieniami musimy dopisać do linku strony głównej sklepu '/shipx/login'.
